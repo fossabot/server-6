@@ -18,15 +18,15 @@
 We wanted a simple server for sending and receiving messages (in real time per web socket). For this, not many open source projects existed and most of the existing ones were abandoned. Also, a requirement was that it can be self-hosted. We know there are many free and commercial push services out there.
 
 ## Features
-* REST-API for
-  * sending messages
-  * receiving messages per websocket
-  * user management
-  * client/device & application management
-* [REST-API Documentation][api-docs] (also available at `/docs`)
-* Web-UI
-<img alt="Gotify UI screenshot" src="ui.png" />
 
+<img alt="Gotify UI screenshot" src="ui.png" align="right" width="570px"/>
+
+* send messages via REST-API
+* receive messages via web socket
+* manage users, clients and applications via REST-API/UI
+* [API Docs][api-docs] (also available at `/docs`)
+* Web-UI -> [./ui](ui)
+* CLI for sending messages -> [gotify/cli](https://github.com/gotify/cli)
 * Android-App -> [gotify/android](https://github.com/gotify/android)
 
 [<img src="https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" width="150" />][playstore]
